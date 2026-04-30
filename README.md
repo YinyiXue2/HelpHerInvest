@@ -1,3 +1,39 @@
+# BEFORE YOU RUN THE FILE:
+
+## To run the OpenAI portion of the code, you will need an OpenAI API key.
+## You can either use your own OpenAI API key or be added to our project and request an API key through our project.
+Please email Tongyu at guotq@bc.edu
+## Once you have your API key, proceed with the following steps in our class JupyterLab environment.
+## Assume that you have already gone to our GitHub page and copied or cloned the repository.
+
+# Step 1
+Open the JupyterLab Terminal.
+
+# Step 2
+Type the following command and press Enter:
+touch .env
+
+# Step 3
+Then type the following command and press Enter:
+nano .env
+
+# Step 4
+The previous step opens the .env file in the terminal editor. Then type the following:
+OPENAI_API_KEY=your_OpenAI_API_key_here
+
+# Step 5
+After entering the API key, press: Ctrl + O
+Then press Enter to save the file.
+Next, press: Ctrl + X to exit the editor.
+
+# Step 6
+Once this is done, run the file. If you encounter any issues, copy the codebook into your main parent folder and run it from there.
+
+
+
+
+
+
 # HelpHerInvest
 ADAN 8888 Project, the goal is to create a personalized recommendation model that helps individuals to invest 
 
